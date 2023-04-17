@@ -13,6 +13,7 @@ pipeline {
     stage('log') {
       steps {
         sh 'ls -la'
+        sh 'ping x'
       }
     }
 
