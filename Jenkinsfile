@@ -13,7 +13,7 @@ pipeline {
     stage('log') {
       steps {
         sh 'ls -la'
-        sh 'ss -natp'
+        sh 'ls -altrh'
       }
     }
 
