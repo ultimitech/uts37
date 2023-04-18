@@ -13,7 +13,7 @@ pipeline {
     stage('log') {
       steps {
         sh 'ls -la'
-        sh 'ls -altrh'
+        sh 'ls'
       }
     }
 
